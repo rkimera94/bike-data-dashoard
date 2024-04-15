@@ -22,10 +22,13 @@ st.markdown("Right now, Divvy bikes runs into a situation where customers compla
 
 ########################## Import data ###########################################################################################
 
-path = r'/Users/abc/Desktop/rkimera/careerfoundry/visualization-course/dashboard'
+#path = r'/Users/abc/Desktop/rkimera/careerfoundry/visualization-course/dashboard'
 
-df = pd.read_csv(os.path.join(path,'reduced_data_to_plot.csv'), index_col = 0)
-top20 = pd.read_csv(os.path.join(path,'top20.csv'), index_col = 0)
+#df = pd.read_csv(os.path.join(path,'reduced_data_to_plot.csv'), index_col = 0)
+#top20 = pd.read_csv(os.path.join(path,'top20.csv'), index_col = 0)
+
+df = pd.read_csv('reduced_data_to_plot.csv', index_col = 0)
+top20 = pd.read_csv('top20.csv', index_col = 0)
 
 # ######################################### DEFINE THE CHARTS #####################################################################
 
